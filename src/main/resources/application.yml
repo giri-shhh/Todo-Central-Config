@@ -2,9 +2,13 @@ server:
   port: 8888
 spring:
   application:
-    name: Todo Central Config
+    name: todo-central-config
   cloud:
     config:
       server:
         git:
           uri: file:/C:/God Root/Todo Config
+eureka:
+  client:
+    service-url:
+      default-zone: localhost:8761

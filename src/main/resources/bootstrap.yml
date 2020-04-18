@@ -7,7 +7,12 @@ spring:
     config:
       server:
         git:
-          uri: file:/C:/God Root/Todo Config
+          uri: https://github.com/giri-shhh/todo-config.git
+          username: giri-shhh
+          password: Mugiwara@077
+          clone-on-start: true
+      discovery:
+        enabled: false
 eureka:
   client:
     service-url:
